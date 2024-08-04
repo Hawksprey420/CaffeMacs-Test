@@ -103,11 +103,6 @@ namespace CaffeMacs_Test
         }
         static void Cafe_MenuGoods(List<Goods> goods)
         {
-            if (isLoggedIn)
-            {
-                Console.WriteLine("You need to log in to add items.");
-                return;
-            }
 
             int goods_count = 0;
 
